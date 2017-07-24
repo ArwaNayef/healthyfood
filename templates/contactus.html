@@ -1,0 +1,22 @@
+{%extends "layout.html"%}
+{% block head %}
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets1/stylefood1.css">
+{% endblock %}
+
+
+{% block body %}
+	<form action="{{ url_for('contactushere')}}" method="post">
+		Email:<br>
+		<input type="Email" name="Email"><br>
+		
+		Messege:<br>
+		<textarea class="sms" type="text" name="messege"> </textarea>
+
+		<input type="submit" name="submit" value="submit"> <br>
+
+		<div class="center">
+		<img class= "image" src="../static/images/food4.jpg" height="400px" width="auto"/>
+		</div>
+	
+	</form>
+{% endblock %}

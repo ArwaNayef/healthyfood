@@ -36,5 +36,10 @@ li a{
 
  .images{
  	float: right;
- 	margin: 10px 10px
+ 	margin: 10px 10px;
+ }
+
+ .center{
+ 	width: 50%;
+ 	margin: auto;
  }
