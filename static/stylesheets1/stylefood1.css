@@ -1,0 +1,35 @@
+
+h1{
+	text-align: center;
+	color: green;
+}
+h1:hover{
+	color: black;
+}
+h2{
+	text-align: center;
+	color: green;
+}
+p{
+	
+	color: black;
+
+}
+
+.nav_bar li{
+	display: inline;
+	padding: 10px 10px;
+
+}
+
+.nav_bar li:hover{
+	background-color:gray;
+}
+.nav_bar{
+	border: green solid 5px;
+	padding: 20px 20px;
+}
+
+li a{
+	text-decoration: none;
+}
