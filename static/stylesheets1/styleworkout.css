@@ -10,12 +10,15 @@ h2{
 	text-align: center;
 	color: green;
 }
+h3{
+	text-align: left;
+
+}
 p{
 	
 	color: black;
 
 }
-
 
 .nav_bar li{
 	display: inline;
@@ -24,7 +27,7 @@ p{
 }
 
 .nav_bar li:hover{
-	background-color:pink;
+	background-color:gray;
 }
 .nav_bar{
 	border: green solid 5px;
@@ -33,16 +36,8 @@ p{
 
 li a{
 	text-decoration: none;
-
 }
-
  .images{
  	float: right;
- 	margin: 10px 10px;
+ 	margin: 10px 10px
  }
-
- .center{
- 	width: 50%;
- 	margin: auto;
- }
-
