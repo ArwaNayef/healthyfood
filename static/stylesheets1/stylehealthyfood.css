@@ -15,7 +15,12 @@ p{
 	color: black;
 
 }
+.center img{
+	display: inline-block;
+	margin: 40px ;
+}
 
+ 
 
 .nav_bar li{
 	display: inline;
@@ -33,4 +38,9 @@ p{
 
 li a{
 	text-decoration: none;
-} 
+}
+.centered {
+	margin:auto;
+	width:80% ;
+	text-align: center;
+}
