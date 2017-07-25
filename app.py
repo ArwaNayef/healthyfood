@@ -42,10 +42,10 @@ def yourrecipes ():
 def contactushere():
 	user_recipe= request.form["recipe"]
 	user_email= request.form["Email"]
-	recipes.insert(dict(Email=user_email, Recipe=user_recipe))
+	recipes_table.insert(dict(Email=user_email, Recipe=user_recipe))
 
 
-	return render_template("form_data.html", Email=user_email, Recipe= user_message)
+	return render_template("form_data.html", Email=user_email, Recipe= user_recipe)
 
 
 
