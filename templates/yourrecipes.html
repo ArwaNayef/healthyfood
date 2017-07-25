@@ -1,0 +1,12 @@
+{%extends "layout.html"%}
+{% block head %}
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets1/stylefood1.css">
+{% endblock %}
+
+{%block body%}
+<ul>
+	{%for recipe in recipes%}
+		<li> User:{{recipe.Email}} , {{recipe.Recipe}}</li>
+	{%endfor%}
+</ul>
+{%endblock%}
