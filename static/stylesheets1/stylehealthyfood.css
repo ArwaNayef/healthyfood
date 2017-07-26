@@ -11,12 +11,13 @@ h2{
 	color: green;
 }
 p{
-	
+	text-align: left;
 	color: black;
 
 }
 .center img{
 	display: inline-block;
+<<<<<<< HEAD
 
 	margin: 90px ;
 }
@@ -44,21 +45,46 @@ li a{
 }
 
  .centered {
+=======
+	margin: 60px 60px ;
+}
+
+.centered {
+>>>>>>> 721e50ec8d0b7d5041ea581e4085223e8125b337
 	margin:auto;
 	width:80% ;
 	text-align: center;
 }
-
-
-.left{
-
-	float: left;
-	
+.images{
+	float: right;
+	margin: 50px 40px;
+	padding-top: 100px;
 
 }
 
-.right{
+ 
 
+.pandul{
+	margin: 20px 20px;
+    float: left;
+    color: black;
+    width: 40%;
+    padding: 50px 50px;
+}
+
+ 
+}
+
+.right{
+	float: left;
+	margin: 20px 20px;
+}
+
+<<<<<<< HEAD
 	float:  right;
 
+=======
+.racipes{
+	overflow: auto;
+>>>>>>> 721e50ec8d0b7d5041ea581e4085223e8125b337
 }
