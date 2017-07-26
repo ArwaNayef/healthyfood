@@ -53,3 +53,8 @@ p{
 .racipes{
 	overflow: auto;
 }
+
+.method{
+	width: 70%;
+	margin:auto;
+}
