@@ -12,15 +12,20 @@ body{
 
 }
 
-.nav_bar li:hover{
-	background-color:gray;
 
-}
 .nav_bar{
 	border: green solid 5px;
 	padding: 20px 20px;
 	
 }
+
+
+.nav_bar li:hover{
+
+	background-color:pink;
+
+}
+
 
 li a{
 	text-decoration: none;

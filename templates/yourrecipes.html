@@ -1,0 +1,10 @@
+{%extends "layout.html"%}
+
+
+{%block body%}
+<ul>
+	{%for recipe in recipes%}
+		<li> This person {{recipe.Email}} has sumitted this recipe {{recipe.Recipe}}</li>
+	{%endfor%}
+</ul>
+{%endblock%}

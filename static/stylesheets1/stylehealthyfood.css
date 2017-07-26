@@ -17,7 +17,7 @@ p{
 }
 .center img{
 	display: inline-block;
-	margin: 60px 60px ;
+	margin: 60px 30px ;
 }
 
 .centered {
@@ -50,11 +50,19 @@ p{
 	margin: 20px 20px;
 }
 
+<<<<<<< HEAD
+	float:  right;
+
+=======
 .racipes{
 	overflow: auto;
+<<<<<<< HEAD
+>>>>>>> 721e50ec8d0b7d5041ea581e4085223e8125b337
+=======
 }
 
 .method{
 	width: 70%;
 	margin:auto;
+>>>>>>> d58de70ced30b06036561f58002c68716d067ccc
 }
