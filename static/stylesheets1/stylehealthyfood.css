@@ -17,40 +17,10 @@ p{
 }
 .center img{
 	display: inline-block;
-<<<<<<< HEAD
-
-	margin: 90px ;
-}
-
-
-.nav_bar li{
-	display: inline;
-	padding: 10px 10px;
-
-}
-
-.nav_bar li:hover{
-
-	background-color:pink;
-
-}
-.nav_bar{
-	border: green solid 5px;
-	padding: 20px 20px;
-	
-}
-
-li a{
-	text-decoration: none;
-}
-
- .centered {
-=======
-	margin: 60px 60px ;
+	margin: 60px 30px ;
 }
 
 .centered {
->>>>>>> 721e50ec8d0b7d5041ea581e4085223e8125b337
 	margin:auto;
 	width:80% ;
 	text-align: center;
@@ -86,5 +56,13 @@ li a{
 =======
 .racipes{
 	overflow: auto;
+<<<<<<< HEAD
 >>>>>>> 721e50ec8d0b7d5041ea581e4085223e8125b337
+=======
+}
+
+.method{
+	width: 70%;
+	margin:auto;
+>>>>>>> d58de70ced30b06036561f58002c68716d067ccc
 }
