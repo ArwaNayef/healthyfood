@@ -1,4 +1,6 @@
-
+b{
+	background-color: blue;
+}
 h1{
 	text-align: center;
 	color: green;
@@ -10,15 +12,13 @@ h2{
 	text-align: center;
 	color: green;
 }
-p{
 	
+.pandul{
 	color: black;
 
-}
-.center img{
-	display: inline-block;
-
-	margin: 90px ;
+	float: left;
+	margin: 70px 40px;
+	padding: 30px 30px;
 }
 
 
@@ -29,9 +29,7 @@ p{
 }
 
 .nav_bar li:hover{
-
 	background-color:pink;
-
 }
 .nav_bar{
 	border: green solid 5px;
@@ -41,24 +39,7 @@ p{
 
 li a{
 	text-decoration: none;
-}
-
- .centered {
-	margin:auto;
-	width:80% ;
-	text-align: center;
-}
-
-
-.left{
-
-	float: left;
-	
 
 }
 
-.right{
 
-	float:  right;
-
-}

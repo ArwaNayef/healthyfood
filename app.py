@@ -15,6 +15,7 @@ recipes_table= db["food_recipes"]
 #print(db.tables)
 #print(table.colums)
 		
+
 @app.route("/")
 def home ():
 	return render_template("index.html")
@@ -40,12 +41,14 @@ def yourrecipes ():
 
 @app.route("/contactus_response",methods= ['POST'])
 def contactushere():
-	user_recipe= request.form["recipe"]
+	user_recipe= request.form["Recipe"]
 	user_email= request.form["Email"]
 	recipes_table.insert(dict(Email=user_email, Recipe=user_recipe))
 
 
+
 	return render_template("form_data.html", Email=user_email, Recipe= user_recipe)
+
 
 
 
